@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            position: relative;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+        }
+
+        .image {
+            width: 80vw;
+            max-width: 300px;
+            opacity: 0.8;
+        }
+
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .telegram-container {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .telegram-icon {
+            width: 40px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.ibb.co/bLsCkYX/new-image.png" alt="Coming Soon Image" class="image">
+        <div class="text">Coming Soon</div>
+    </div>
+
+    <div class="telegram-container">
+        <a href="https://t.me/neyro_space" target="_blank">
+            <img src="https://i.ibb.co/fY9xx2X9/IMG-1394.png" alt="Telegram Icon" class="telegram-icon">
+        </a>
+    </div>
+</body>
+</html>
